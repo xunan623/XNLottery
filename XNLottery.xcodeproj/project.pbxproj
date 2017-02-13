@@ -10,10 +10,21 @@
 		4F386B5F3D6AED954F51F86C /* libPods-XNLottery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE144FE4A4DEC84D8EA2E89 /* libPods-XNLottery.a */; };
 		714279161E515F85005C2B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279151E515F85005C2B1C /* main.m */; };
 		714279191E515F85005C2B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279181E515F85005C2B1C /* AppDelegate.m */; };
-		7142791C1E515F85005C2B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142791B1E515F85005C2B1C /* ViewController.m */; };
-		7142791F1E515F85005C2B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7142791D1E515F85005C2B1C /* Main.storyboard */; };
 		714279211E515F85005C2B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714279201E515F85005C2B1C /* Assets.xcassets */; };
 		714279241E515F85005C2B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714279221E515F85005C2B1C /* LaunchScreen.storyboard */; };
+		714279481E518A20005C2B1C /* XNArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279461E518A20005C2B1C /* XNArenaController.m */; };
+		714279491E518A20005C2B1C /* XNArenaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714279471E518A20005C2B1C /* XNArenaController.xib */; };
+		7142794D1E518A32005C2B1C /* XNDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142794B1E518A32005C2B1C /* XNDiscoverController.m */; };
+		7142794E1E518A32005C2B1C /* XNDiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7142794C1E518A32005C2B1C /* XNDiscoverController.xib */; };
+		714279521E518A43005C2B1C /* XNHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279501E518A43005C2B1C /* XNHallController.m */; };
+		714279531E518A43005C2B1C /* XNHallController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714279511E518A43005C2B1C /* XNHallController.xib */; };
+		714279571E518A6A005C2B1C /* XNHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279551E518A6A005C2B1C /* XNHistoryController.m */; };
+		714279581E518A6A005C2B1C /* XNHistoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714279561E518A6A005C2B1C /* XNHistoryController.xib */; };
+		7142795C1E518A8A005C2B1C /* XNMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142795A1E518A8A005C2B1C /* XNMyLotteryController.m */; };
+		7142795D1E518A8A005C2B1C /* XNMyLotteryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7142795B1E518A8A005C2B1C /* XNMyLotteryController.xib */; };
+		714279601E518AAC005C2B1C /* XNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142795F1E518AAC005C2B1C /* XNTabBarController.m */; };
+		714279631E518EA0005C2B1C /* XNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279621E518EA0005C2B1C /* XNTabBar.m */; };
+		7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279691E5193E5005C2B1C /* XNNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +33,32 @@
 		714279151E515F85005C2B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		714279171E515F85005C2B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		714279181E515F85005C2B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7142791A1E515F85005C2B1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7142791B1E515F85005C2B1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7142791E1E515F85005C2B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		714279201E515F85005C2B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714279231E515F85005C2B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714279251E515F85005C2B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714279451E518A20005C2B1C /* XNArenaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNArenaController.h; sourceTree = "<group>"; };
+		714279461E518A20005C2B1C /* XNArenaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNArenaController.m; sourceTree = "<group>"; };
+		714279471E518A20005C2B1C /* XNArenaController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNArenaController.xib; sourceTree = "<group>"; };
+		7142794A1E518A32005C2B1C /* XNDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNDiscoverController.h; sourceTree = "<group>"; };
+		7142794B1E518A32005C2B1C /* XNDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNDiscoverController.m; sourceTree = "<group>"; };
+		7142794C1E518A32005C2B1C /* XNDiscoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNDiscoverController.xib; sourceTree = "<group>"; };
+		7142794F1E518A43005C2B1C /* XNHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHallController.h; sourceTree = "<group>"; };
+		714279501E518A43005C2B1C /* XNHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHallController.m; sourceTree = "<group>"; };
+		714279511E518A43005C2B1C /* XNHallController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNHallController.xib; sourceTree = "<group>"; };
+		714279541E518A6A005C2B1C /* XNHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHistoryController.h; sourceTree = "<group>"; };
+		714279551E518A6A005C2B1C /* XNHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHistoryController.m; sourceTree = "<group>"; };
+		714279561E518A6A005C2B1C /* XNHistoryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNHistoryController.xib; sourceTree = "<group>"; };
+		714279591E518A8A005C2B1C /* XNMyLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMyLotteryController.h; sourceTree = "<group>"; };
+		7142795A1E518A8A005C2B1C /* XNMyLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMyLotteryController.m; sourceTree = "<group>"; };
+		7142795B1E518A8A005C2B1C /* XNMyLotteryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNMyLotteryController.xib; sourceTree = "<group>"; };
+		7142795E1E518AAC005C2B1C /* XNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNTabBarController.h; sourceTree = "<group>"; };
+		7142795F1E518AAC005C2B1C /* XNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNTabBarController.m; sourceTree = "<group>"; };
+		714279611E518EA0005C2B1C /* XNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNTabBar.h; sourceTree = "<group>"; };
+		714279621E518EA0005C2B1C /* XNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNTabBar.m; sourceTree = "<group>"; };
+		714279641E519079005C2B1C /* XNLottery.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNLottery.pch; sourceTree = "<group>"; };
+		714279671E5192FD005C2B1C /* MyLotteryDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLotteryDefine.h; sourceTree = "<group>"; };
+		714279681E5193E5005C2B1C /* XNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNNavigationController.h; sourceTree = "<group>"; };
+		714279691E5193E5005C2B1C /* XNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNNavigationController.m; sourceTree = "<group>"; };
 		990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.debug.xcconfig"; sourceTree = "<group>"; };
 		CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,11 +96,9 @@
 		714279131E515F85005C2B1C /* XNLottery */ = {
 			isa = PBXGroup;
 			children = (
+				7142792B1E51895F005C2B1C /* Classes */,
 				714279171E515F85005C2B1C /* AppDelegate.h */,
 				714279181E515F85005C2B1C /* AppDelegate.m */,
-				7142791A1E515F85005C2B1C /* ViewController.h */,
-				7142791B1E515F85005C2B1C /* ViewController.m */,
-				7142791D1E515F85005C2B1C /* Main.storyboard */,
 				714279201E515F85005C2B1C /* Assets.xcassets */,
 				714279221E515F85005C2B1C /* LaunchScreen.storyboard */,
 				714279251E515F85005C2B1C /* Info.plist */,
@@ -84,6 +113,236 @@
 				714279151E515F85005C2B1C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7142792B1E51895F005C2B1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7142792C1E51895F005C2B1C /* Arena(竞技场) */,
+				714279301E51895F005C2B1C /* Discover(发现) */,
+				714279341E51895F005C2B1C /* Hall(购彩大厅) */,
+				714279381E51895F005C2B1C /* History(开奖信息) */,
+				7142793C1E51895F005C2B1C /* Main(主要) */,
+				714279401E51895F005C2B1C /* MyLottery(我的彩票) */,
+				714279441E51895F005C2B1C /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7142792C1E51895F005C2B1C /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				7142792D1E51895F005C2B1C /* Controller */,
+				7142792E1E51895F005C2B1C /* Model */,
+				7142792F1E51895F005C2B1C /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		7142792D1E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				714279451E518A20005C2B1C /* XNArenaController.h */,
+				714279461E518A20005C2B1C /* XNArenaController.m */,
+				714279471E518A20005C2B1C /* XNArenaController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7142792E1E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7142792F1E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714279301E51895F005C2B1C /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				714279311E51895F005C2B1C /* Controller */,
+				714279321E51895F005C2B1C /* Model */,
+				714279331E51895F005C2B1C /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		714279311E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7142794A1E518A32005C2B1C /* XNDiscoverController.h */,
+				7142794B1E518A32005C2B1C /* XNDiscoverController.m */,
+				7142794C1E518A32005C2B1C /* XNDiscoverController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		714279321E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		714279331E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714279341E51895F005C2B1C /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				714279351E51895F005C2B1C /* Controller */,
+				714279361E51895F005C2B1C /* Model */,
+				714279371E51895F005C2B1C /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		714279351E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7142794F1E518A43005C2B1C /* XNHallController.h */,
+				714279501E518A43005C2B1C /* XNHallController.m */,
+				714279511E518A43005C2B1C /* XNHallController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		714279361E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		714279371E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714279381E51895F005C2B1C /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				714279391E51895F005C2B1C /* Controller */,
+				7142793A1E51895F005C2B1C /* Model */,
+				7142793B1E51895F005C2B1C /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		714279391E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				714279541E518A6A005C2B1C /* XNHistoryController.h */,
+				714279551E518A6A005C2B1C /* XNHistoryController.m */,
+				714279561E518A6A005C2B1C /* XNHistoryController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7142793A1E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7142793B1E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7142793C1E51895F005C2B1C /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				7142793D1E51895F005C2B1C /* Controller */,
+				7142793E1E51895F005C2B1C /* Model */,
+				7142793F1E51895F005C2B1C /* View */,
+				714279641E519079005C2B1C /* XNLottery.pch */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		7142793D1E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7142795E1E518AAC005C2B1C /* XNTabBarController.h */,
+				7142795F1E518AAC005C2B1C /* XNTabBarController.m */,
+				714279681E5193E5005C2B1C /* XNNavigationController.h */,
+				714279691E5193E5005C2B1C /* XNNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7142793E1E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7142793F1E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				714279611E518EA0005C2B1C /* XNTabBar.h */,
+				714279621E518EA0005C2B1C /* XNTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714279401E51895F005C2B1C /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				714279411E51895F005C2B1C /* Controller */,
+				714279421E51895F005C2B1C /* Model */,
+				714279431E51895F005C2B1C /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		714279411E51895F005C2B1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				714279591E518A8A005C2B1C /* XNMyLotteryController.h */,
+				7142795A1E518A8A005C2B1C /* XNMyLotteryController.m */,
+				7142795B1E518A8A005C2B1C /* XNMyLotteryController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		714279421E51895F005C2B1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		714279431E51895F005C2B1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714279441E51895F005C2B1C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				714279671E5192FD005C2B1C /* MyLotteryDefine.h */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		916F37B3DD079D1E1CBEEFA9 /* Pods */ = {
@@ -132,6 +391,7 @@
 		714279091E515F85005C2B1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XN;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xunan;
 				TargetAttributes = {
@@ -167,7 +427,11 @@
 			files = (
 				714279241E515F85005C2B1C /* LaunchScreen.storyboard in Resources */,
 				714279211E515F85005C2B1C /* Assets.xcassets in Resources */,
-				7142791F1E515F85005C2B1C /* Main.storyboard in Resources */,
+				7142794E1E518A32005C2B1C /* XNDiscoverController.xib in Resources */,
+				7142795D1E518A8A005C2B1C /* XNMyLotteryController.xib in Resources */,
+				714279531E518A43005C2B1C /* XNHallController.xib in Resources */,
+				714279581E518A6A005C2B1C /* XNHistoryController.xib in Resources */,
+				714279491E518A20005C2B1C /* XNArenaController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,23 +490,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7142791C1E515F85005C2B1C /* ViewController.m in Sources */,
+				714279521E518A43005C2B1C /* XNHallController.m in Sources */,
+				714279481E518A20005C2B1C /* XNArenaController.m in Sources */,
+				714279571E518A6A005C2B1C /* XNHistoryController.m in Sources */,
 				714279191E515F85005C2B1C /* AppDelegate.m in Sources */,
+				7142794D1E518A32005C2B1C /* XNDiscoverController.m in Sources */,
+				7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */,
+				714279601E518AAC005C2B1C /* XNTabBarController.m in Sources */,
 				714279161E515F85005C2B1C /* main.m in Sources */,
+				7142795C1E518A8A005C2B1C /* XNMyLotteryController.m in Sources */,
+				714279631E518EA0005C2B1C /* XNTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7142791D1E515F85005C2B1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7142791E1E515F85005C2B1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		714279221E515F85005C2B1C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,7 +610,11 @@
 			baseConfigurationReference = 990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XNLottery/Classes/Main(主要)/XNLottery.pch";
 				INFOPLIST_FILE = XNLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XNLottery;
@@ -360,7 +627,11 @@
 			baseConfigurationReference = CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XNLottery/Classes/Main(主要)/XNLottery.pch";
 				INFOPLIST_FILE = XNLottery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XNLottery;

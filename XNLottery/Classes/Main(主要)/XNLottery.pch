@@ -1,0 +1,14 @@
+//
+//  XNLottery.pch
+//  XNLottery
+//
+//  Created by xunan on 2017/2/13.
+//  Copyright © 2017年 xunan. All rights reserved.
+//
+
+#ifndef XNLottery_pch
+#define XNLottery_pch
+
+#import "MyLotteryDefine.h"
+
+#endif /* XNLottery_pch */
