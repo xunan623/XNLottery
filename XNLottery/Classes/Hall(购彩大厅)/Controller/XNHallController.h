@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XNHallController : UIViewController
+@interface XNHallController : UITableViewController
 
 @end

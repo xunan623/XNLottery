@@ -10,5 +10,7 @@
 #define XNLottery_pch
 
 #import "MyLotteryDefine.h"
+#import "UIView+Frame.h"
+
 
 #endif /* XNLottery_pch */

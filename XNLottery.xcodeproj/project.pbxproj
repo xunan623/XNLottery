@@ -17,7 +17,6 @@
 		7142794D1E518A32005C2B1C /* XNDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142794B1E518A32005C2B1C /* XNDiscoverController.m */; };
 		7142794E1E518A32005C2B1C /* XNDiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7142794C1E518A32005C2B1C /* XNDiscoverController.xib */; };
 		714279521E518A43005C2B1C /* XNHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279501E518A43005C2B1C /* XNHallController.m */; };
-		714279531E518A43005C2B1C /* XNHallController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714279511E518A43005C2B1C /* XNHallController.xib */; };
 		714279571E518A6A005C2B1C /* XNHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279551E518A6A005C2B1C /* XNHistoryController.m */; };
 		714279581E518A6A005C2B1C /* XNHistoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714279561E518A6A005C2B1C /* XNHistoryController.xib */; };
 		7142795C1E518A8A005C2B1C /* XNMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142795A1E518A8A005C2B1C /* XNMyLotteryController.m */; };
@@ -25,6 +24,8 @@
 		714279601E518AAC005C2B1C /* XNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142795F1E518AAC005C2B1C /* XNTabBarController.m */; };
 		714279631E518EA0005C2B1C /* XNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279621E518EA0005C2B1C /* XNTabBar.m */; };
 		7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279691E5193E5005C2B1C /* XNNavigationController.m */; };
+		714279701E51B0AF005C2B1C /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142796D1E51B0AF005C2B1C /* UIImage+Image.m */; };
+		714279711E51B0AF005C2B1C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142796F1E51B0AF005C2B1C /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,6 @@
 		7142794C1E518A32005C2B1C /* XNDiscoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNDiscoverController.xib; sourceTree = "<group>"; };
 		7142794F1E518A43005C2B1C /* XNHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHallController.h; sourceTree = "<group>"; };
 		714279501E518A43005C2B1C /* XNHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHallController.m; sourceTree = "<group>"; };
-		714279511E518A43005C2B1C /* XNHallController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNHallController.xib; sourceTree = "<group>"; };
 		714279541E518A6A005C2B1C /* XNHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNHistoryController.h; sourceTree = "<group>"; };
 		714279551E518A6A005C2B1C /* XNHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNHistoryController.m; sourceTree = "<group>"; };
 		714279561E518A6A005C2B1C /* XNHistoryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNHistoryController.xib; sourceTree = "<group>"; };
@@ -59,6 +59,10 @@
 		714279671E5192FD005C2B1C /* MyLotteryDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLotteryDefine.h; sourceTree = "<group>"; };
 		714279681E5193E5005C2B1C /* XNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNNavigationController.h; sourceTree = "<group>"; };
 		714279691E5193E5005C2B1C /* XNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNNavigationController.m; sourceTree = "<group>"; };
+		7142796C1E51B0AF005C2B1C /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		7142796D1E51B0AF005C2B1C /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		7142796E1E51B0AF005C2B1C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7142796F1E51B0AF005C2B1C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.debug.xcconfig"; sourceTree = "<group>"; };
 		CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +216,6 @@
 			children = (
 				7142794F1E518A43005C2B1C /* XNHallController.h */,
 				714279501E518A43005C2B1C /* XNHallController.m */,
-				714279511E518A43005C2B1C /* XNHallController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -340,9 +343,21 @@
 		714279441E51895F005C2B1C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				7142796B1E51B0AF005C2B1C /* Categoty */,
 				714279671E5192FD005C2B1C /* MyLotteryDefine.h */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		7142796B1E51B0AF005C2B1C /* Categoty */ = {
+			isa = PBXGroup;
+			children = (
+				7142796C1E51B0AF005C2B1C /* UIImage+Image.h */,
+				7142796D1E51B0AF005C2B1C /* UIImage+Image.m */,
+				7142796E1E51B0AF005C2B1C /* UIView+Frame.h */,
+				7142796F1E51B0AF005C2B1C /* UIView+Frame.m */,
+			);
+			path = Categoty;
 			sourceTree = "<group>";
 		};
 		916F37B3DD079D1E1CBEEFA9 /* Pods */ = {
@@ -429,7 +444,6 @@
 				714279211E515F85005C2B1C /* Assets.xcassets in Resources */,
 				7142794E1E518A32005C2B1C /* XNDiscoverController.xib in Resources */,
 				7142795D1E518A8A005C2B1C /* XNMyLotteryController.xib in Resources */,
-				714279531E518A43005C2B1C /* XNHallController.xib in Resources */,
 				714279581E518A6A005C2B1C /* XNHistoryController.xib in Resources */,
 				714279491E518A20005C2B1C /* XNArenaController.xib in Resources */,
 			);
@@ -490,10 +504,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714279711E51B0AF005C2B1C /* UIView+Frame.m in Sources */,
 				714279521E518A43005C2B1C /* XNHallController.m in Sources */,
 				714279481E518A20005C2B1C /* XNArenaController.m in Sources */,
 				714279571E518A6A005C2B1C /* XNHistoryController.m in Sources */,
 				714279191E515F85005C2B1C /* AppDelegate.m in Sources */,
+				714279701E51B0AF005C2B1C /* UIImage+Image.m in Sources */,
 				7142794D1E518A32005C2B1C /* XNDiscoverController.m in Sources */,
 				7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */,
 				714279601E518AAC005C2B1C /* XNTabBarController.m in Sources */,
