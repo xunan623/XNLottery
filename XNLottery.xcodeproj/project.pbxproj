@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F386B5F3D6AED954F51F86C /* libPods-XNLottery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE144FE4A4DEC84D8EA2E89 /* libPods-XNLottery.a */; };
 		714279161E515F85005C2B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279151E515F85005C2B1C /* main.m */; };
 		714279191E515F85005C2B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279181E515F85005C2B1C /* AppDelegate.m */; };
 		7142791C1E515F85005C2B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142791B1E515F85005C2B1C /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CE144FE4A4DEC84D8EA2E89 /* libPods-XNLottery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XNLottery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714279111E515F85005C2B1C /* XNLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XNLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714279151E515F85005C2B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		714279171E515F85005C2B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		714279201E515F85005C2B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		714279231E515F85005C2B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714279251E515F85005C2B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.debug.xcconfig"; sourceTree = "<group>"; };
+		CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F386B5F3D6AED954F51F86C /* libPods-XNLottery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				714279131E515F85005C2B1C /* XNLottery */,
 				714279121E515F85005C2B1C /* Products */,
+				916F37B3DD079D1E1CBEEFA9 /* Pods */,
+				D258A6ED5823FBE229B859A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		916F37B3DD079D1E1CBEEFA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */,
+				CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D258A6ED5823FBE229B859A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE144FE4A4DEC84D8EA2E89 /* libPods-XNLottery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 714279281E515F85005C2B1C /* Build configuration list for PBXNativeTarget "XNLottery" */;
 			buildPhases = (
+				07679EC559884DB9027651B6 /* [CP] Check Pods Manifest.lock */,
 				7142790D1E515F85005C2B1C /* Sources */,
 				7142790E1E515F85005C2B1C /* Frameworks */,
 				7142790F1E515F85005C2B1C /* Resources */,
+				141AF82E8326055BFBDDED1F /* [CP] Embed Pods Frameworks */,
+				85282B171C72B53D4833B651 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07679EC559884DB9027651B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		141AF82E8326055BFBDDED1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85282B171C72B53D4833B651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7142790D1E515F85005C2B1C /* Sources */ = {
@@ -269,6 +344,7 @@
 		};
 		714279291E515F85005C2B1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
@@ -281,6 +357,7 @@
 		};
 		7142792A1E515F85005C2B1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y2TKYWJ5ZW;
@@ -310,6 +387,7 @@
 				7142792A1E515F85005C2B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
