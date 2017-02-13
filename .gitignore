@@ -1,0 +1,18 @@
+*.pbxuser^M
+*.xcbkptlist^M
+*.xcscheme^M
+#*.xcworkspacedata^M
+*.xcuserstate^M
+xcschememanagement.plist^M
+build/^M
+.DS_Store^M
+._.*^M
+xcuserdata/^M
+DerivedData/^M
+*.xccheckout^M
+# about eclipse
+Podfile.lock
+Pods/
+.metadata/
+xcuserdata/
+xcshareddata/
