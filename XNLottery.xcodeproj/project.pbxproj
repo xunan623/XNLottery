@@ -26,6 +26,11 @@
 		7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714279691E5193E5005C2B1C /* XNNavigationController.m */; };
 		714279701E51B0AF005C2B1C /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142796D1E51B0AF005C2B1C /* UIImage+Image.m */; };
 		714279711E51B0AF005C2B1C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7142796F1E51B0AF005C2B1C /* UIView+Frame.m */; };
+		7196E4A31E52A084002D5168 /* XNActiveMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196E4A21E52A084002D5168 /* XNActiveMenu.m */; };
+		7196E4A51E52A08D002D5168 /* XNActiveMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7196E4A41E52A08D002D5168 /* XNActiveMenu.xib */; };
+		7196E4A81E52A5E9002D5168 /* XNCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196E4A71E52A5E9002D5168 /* XNCover.m */; };
+		7196E4AB1E52A9CB002D5168 /* XNMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196E4AA1E52A9CB002D5168 /* XNMenuItem.m */; };
+		7196E4AE1E52AAB9002D5168 /* XNDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7196E4AD1E52AAB9002D5168 /* XNDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,15 @@
 		7142796D1E51B0AF005C2B1C /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		7142796E1E51B0AF005C2B1C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		7142796F1E51B0AF005C2B1C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7196E4A11E52A084002D5168 /* XNActiveMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNActiveMenu.h; sourceTree = "<group>"; };
+		7196E4A21E52A084002D5168 /* XNActiveMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNActiveMenu.m; sourceTree = "<group>"; };
+		7196E4A41E52A08D002D5168 /* XNActiveMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNActiveMenu.xib; sourceTree = "<group>"; };
+		7196E4A61E52A5E9002D5168 /* XNCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNCover.h; sourceTree = "<group>"; };
+		7196E4A71E52A5E9002D5168 /* XNCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNCover.m; sourceTree = "<group>"; };
+		7196E4A91E52A9CB002D5168 /* XNMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMenuItem.h; sourceTree = "<group>"; };
+		7196E4AA1E52A9CB002D5168 /* XNMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMenuItem.m; sourceTree = "<group>"; };
+		7196E4AC1E52AAB9002D5168 /* XNDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNDownMenu.h; sourceTree = "<group>"; };
+		7196E4AD1E52AAB9002D5168 /* XNDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNDownMenu.m; sourceTree = "<group>"; };
 		990789B39509CC970494AB4A /* Pods-XNLottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.debug.xcconfig"; sourceTree = "<group>"; };
 		CB06BCEDF8BE01589B59768B /* Pods-XNLottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNLottery.release.xcconfig"; path = "Pods/Target Support Files/Pods-XNLottery/Pods-XNLottery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +244,15 @@
 		714279371E51895F005C2B1C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7196E4A11E52A084002D5168 /* XNActiveMenu.h */,
+				7196E4A21E52A084002D5168 /* XNActiveMenu.m */,
+				7196E4A41E52A08D002D5168 /* XNActiveMenu.xib */,
+				7196E4A61E52A5E9002D5168 /* XNCover.h */,
+				7196E4A71E52A5E9002D5168 /* XNCover.m */,
+				7196E4A91E52A9CB002D5168 /* XNMenuItem.h */,
+				7196E4AA1E52A9CB002D5168 /* XNMenuItem.m */,
+				7196E4AC1E52AAB9002D5168 /* XNDownMenu.h */,
+				7196E4AD1E52AAB9002D5168 /* XNDownMenu.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				714279241E515F85005C2B1C /* LaunchScreen.storyboard in Resources */,
+				7196E4A51E52A08D002D5168 /* XNActiveMenu.xib in Resources */,
 				714279211E515F85005C2B1C /* Assets.xcassets in Resources */,
 				7142794E1E518A32005C2B1C /* XNDiscoverController.xib in Resources */,
 				7142795D1E518A8A005C2B1C /* XNMyLotteryController.xib in Resources */,
@@ -504,16 +528,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7196E4A31E52A084002D5168 /* XNActiveMenu.m in Sources */,
 				714279711E51B0AF005C2B1C /* UIView+Frame.m in Sources */,
 				714279521E518A43005C2B1C /* XNHallController.m in Sources */,
 				714279481E518A20005C2B1C /* XNArenaController.m in Sources */,
 				714279571E518A6A005C2B1C /* XNHistoryController.m in Sources */,
 				714279191E515F85005C2B1C /* AppDelegate.m in Sources */,
+				7196E4AB1E52A9CB002D5168 /* XNMenuItem.m in Sources */,
 				714279701E51B0AF005C2B1C /* UIImage+Image.m in Sources */,
 				7142794D1E518A32005C2B1C /* XNDiscoverController.m in Sources */,
 				7142796A1E5193E5005C2B1C /* XNNavigationController.m in Sources */,
+				7196E4AE1E52AAB9002D5168 /* XNDownMenu.m in Sources */,
 				714279601E518AAC005C2B1C /* XNTabBarController.m in Sources */,
 				714279161E515F85005C2B1C /* main.m in Sources */,
+				7196E4A81E52A5E9002D5168 /* XNCover.m in Sources */,
 				7142795C1E518A8A005C2B1C /* XNMyLotteryController.m in Sources */,
 				714279631E518EA0005C2B1C /* XNTabBar.m in Sources */,
 			);
